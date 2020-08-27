@@ -6,7 +6,7 @@ class BusinessList extends React.Component {
     render() {
         return (
             <div className="BusinessList">
-                <ul>{this.props.businesses.map(business => {return <Business business={business}/>;})}</ul>
+                <ul>{this.props.businesses.map(b => {return <Business business={b}/>;})}</ul>
             </div>
         )
     }
